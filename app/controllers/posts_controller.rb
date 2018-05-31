@@ -22,6 +22,9 @@ class PostsController < ApplicationController
   def edit
   end
 
+  def user_posts
+  end
+
   # POST /posts
   # POST /posts.json
   def create
