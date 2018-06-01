@@ -23,6 +23,7 @@ class PostsController < ApplicationController
   end
 
   def user_posts
+    @user = User.find(params[:id])
   end
 
   # POST /posts
