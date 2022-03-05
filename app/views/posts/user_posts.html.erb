@@ -9,7 +9,7 @@
         <h3><%= post.title %></h3>
         <p><em>posted on <%= post.created_at.strftime("%B %e, %Y at %l:%M %p") %></em></p>
         <p>
-          <%= post.blog_entry.html_safe %>
+          <%= post.blog_entry %>
         </p>
         <p>
           <%= link_to 'Show', post, class: "btn btn-info" %> 
